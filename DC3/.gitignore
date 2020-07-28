@@ -10,6 +10,13 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
+# Ignore purchased assets.
+/[Aa]ssets/2D\ Customizable\ Characters
+/[Aa]ssets/2D\ game\ art\ asset
+/[Aa]ssets/2D\ Hand\ Painted\ -\ Extra\ Objects
+/[Aa]ssets/2D\ Hand\ Painted\ -\ Mine\ Tileset
+/[Aa]ssets/2D\ Hand\ Painted\ -\ Town\ Tileset
+
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 
@@ -57,4 +64,3 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
-
